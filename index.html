@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+</head>
+
+<body>
+
+    <div class="calculator">
+        <div class="text-field">
+            <input type="text" id="inputField" readonly>
+        </div>
+        <div class="btn">
+            <div class="all-btn">
+                <button class="ac" onclick="clearValue()">AC</button>
+                <button class="backspace" onclick="backSpace()"><svg stroke="currentColor" fill="currentColor"
+                        stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M15.683 3a2 2 0 00-2-2h-7.08a2 2 0 00-1.519.698L.241 7.35a1 1 0 000 1.302l4.843 5.65A2 2 0 006.603 15h7.08a2 2 0 002-2V3zM5.829 5.854a.5.5 0 11.707-.708l2.147 2.147 2.146-2.147a.5.5 0 11.707.708L9.39 8l2.146 2.146a.5.5 0 01-.707.708L8.683 8.707l-2.147 2.147a.5.5 0 01-.707-.708L7.976 8 5.829 5.854z"
+                            clip-rule="evenodd"></path>
+                    </svg></button>
+                <button class="percentage" onclick="addValue('%')">%</button>
+                <button class="divide" onclick="addValue('/')">/</button>
+            </div>
+            <div class="all-btn">
+                <button class="seven" onclick="addValue('7')">7</button>
+                <button class="eight" onclick="addValue('8')">8</button>
+                <button class="nine" onclick="addValue('9')">9</button>
+                <button class="mutiply" onclick="addValue('*')">*</button>
+            </div>
+            <div class="all-btn">
+                <button class="four" onclick="addValue('4')">4</button>
+                <button class="five" onclick="addValue('5')">5</button>
+                <button class="six" onclick="addValue('6')">6</button>
+                <button class="subtract" onclick="addValue('-')">-</button>
+            </div>
+            <div class="all-btn">
+                <button class="one" onclick="addValue('1')">1</button>
+                <button class="two" onclick="addValue('2')">2</button>
+                <button class="three" onclick="addValue('3')">3</button>
+                <button class="add" onclick="addValue('+')">+</button>
+            </div>
+            <div class="all-btn">
+                <button class="zero" onclick="addValue('0')">0</button>
+                <button class="dot" onclick="addValue('.')">.</button>
+                <button class="equal" onclick="calculate('=')">=</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="weather-app">
+        <div class="search-box">
+
+        </div>
+    </div>
+
+    <script src='main.js'></script>
+</body>
+
+</html>

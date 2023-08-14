@@ -1,0 +1,74 @@
+body{
+    font-family: 'Netflix sans';
+    margin: 0;
+    padding: 0;
+}
+
+.calculator{
+    width: 300px;
+    margin: 0 auto;
+    background-color: #18212a;
+    border-radius: 20px;
+    height: 600px;
+    margin-top: 30px;
+    /* padding: 20px; */
+    /* border: 20px solid #fff; */
+    box-shadow: 4px 3px 2px #00000046;
+}
+.text-field{
+    width: 100%;
+    border-radius: 20px;
+}
+#inputField{
+    outline: none;
+    border: none;
+    height: 200px;
+    background-color: #36474f;
+    width: 100%;
+    color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 0;
+    text-align: right;
+}
+.btn{
+    margin-top: 50px;
+}
+.all-btn{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.equal{
+    background-color: orangered;
+    border-radius: 50%;
+}
+.add{
+    background-color: #ffffffcb;
+    border-radius: 50%;
+    color: #000;
+}
+.subtract{
+    background-color: #ffffffcb;
+    border-radius: 50%;
+    color: #000;
+}
+.mutiply{
+    background-color: #ffffffcb;
+    border-radius: 50%;
+    color: #000;
+}
+.divide{
+    background-color: #ffffffcb;
+    border-radius: 50%;
+    color: #000;
+}
